@@ -1,0 +1,71 @@
+
+
+body {
+    font-family: Helvetica;
+    line-height: 1;
+}
+
+header {
+    background: #444;
+    height: 100px;
+    width: 960px;
+    padding:0px;
+}
+
+/* #b {
+float: left;
+width:200px;
+height:600px;
+background-color: grey;
+} */
+
+
+
+#secondBlock {
+    list-style: none;
+    float: left;
+    display: inline-flex;
+    padding-left:200px;
+}
+
+main ul li{
+    float: left;
+    vertical-align: baseline;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+section img {
+    float: left;
+    width: 760px;
+    height: 150px;
+}
+
+section div {
+    width: calc(50% - 30px);
+    float: left;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+section div p {
+    height: 320px;
+    overflow: auto;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 24px;
+}
+
+
+footer {
+    clear: both;
+    background: #444;
+    height: 0px;
+}
